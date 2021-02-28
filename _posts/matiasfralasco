@@ -1,0 +1,13 @@
+git init my-repo
+
+cd my-repo
+
+touch README.md
+
+git add README.md
+
+git commit -m "add README to initial commit"
+
+git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+
+git push --set-upstream origin main
